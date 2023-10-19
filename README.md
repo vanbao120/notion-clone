@@ -1,6 +1,18 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
+env
+```
+# Deployment used by `npx convex dev`
+CONVEX_DEPLOYMENT={{https://dashboard.convex.dev/}} # team: vanbao120, project: nextjs-notion-a5903
+
+NEXT_PUBLIC_CONVEX_URL={{https://dashboard.convex.dev/}}
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY={{https://clerk.com/}}
+CLERK_SECRET_KEY={{https://clerk.com/}}
+
+EDGE_STORE_ACCESS_KEY={{https://dashboard.edgestore.dev/}}
+EDGE_STORE_SECRET_KEY={{https://dashboard.edgestore.dev/}}
+```
 
 First, run the development server:
 
